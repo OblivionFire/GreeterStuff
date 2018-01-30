@@ -35,5 +35,10 @@ public class Greeter {
 		}
 		
 	}
+	
+	public String toString()
+	{
+		return ( "Age: " + age + "Name: " + name);
+	}
 
 }
